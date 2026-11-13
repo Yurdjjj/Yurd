@@ -1,0 +1,29 @@
+# Секреты и локальные переменные
+.env
+.env.*
+!.env.example
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Тестирование и линтинг
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE и ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
